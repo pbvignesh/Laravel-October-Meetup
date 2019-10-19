@@ -13,8 +13,8 @@ class UsersController extends Controller
     {
         $email = $request->input('email');
         $channel = $request->input('channel');
-        $user = new User;
-        $user->sendNotification($email, $channel);
+
+        (new User)->sendNotification($email, $channel);
 
         return view('welcome');
     }

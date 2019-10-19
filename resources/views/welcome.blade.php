@@ -97,7 +97,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Play with notifications
+                    Play with Notifications
                 </div>
 
                 <div class="links">
@@ -107,24 +107,11 @@
                         <input name="email"></input><br><br>
                         <input type="radio" name="channel" value="mail">Send Email Notification<br><br>
                         <input type="radio" name="channel" value="slack">Send slack Notification<br><br>
-                        <input type="radio" name="channel" value="SMS">Send SMS Notification<br><br>
+                        <input style="margin-left:35px;" type="radio" name="channel" value="database">Send Database Notification<br><br>
                         <input id="submit-button" type="submit" value="Notify">
+                        {{-- <input type="radio" name="channel" value="nexmo">Send SMS Notification<br><br> --}}
                     </form>
                 </div>
-
-                {{-- <br><br>
-                <br><br>
-
-                <div class="links">
-                    <a href="{{ route('email_notify_route') }}">Send Email Notification</a>
-                    <a href="https://laracasts.com">Send Slack Notification</a>
-                    <a href="https://laravel-news.com">Send SMS Notification</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://vapor.laravel.com">Vapor</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div> --}}
             </div>
         </div>
     </body>
